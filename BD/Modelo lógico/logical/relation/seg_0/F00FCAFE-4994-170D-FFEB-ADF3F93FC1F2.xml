@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Logs de erros" directorySegmentName="seg_0" id="F00FCAFE-4994-170D-FFEB-ADF3F93FC1F2">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-05-09 19:37:27 UTC</createdTime>
+<ownerDesignName>Modelo lógico</ownerDesignName>
+<engineerTo>
+<item key="77CD7FD9-178A-5462-D903-4F72A821DE98" value="true"/>
+</engineerTo>
+<sourcePk>74C4940C-FA26-E683-FD3C-BDB17BEFDB6A</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>EAB61083-6F84-A29C-DB7E-FA3636C2B96E</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>106ADCE7-8383-82DA-493D-BC7E862BD731</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

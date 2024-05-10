@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Formas de contato" directorySegmentName="seg_0" id="06BC8C7B-2694-B073-C3A1-CDC6F38491AC">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-05-06 21:18:56 UTC</createdTime>
+<ownerDesignName>Modelo lógico</ownerDesignName>
+<engineerTo>
+<item key="77CD7FD9-178A-5462-D903-4F72A821DE98" value="true"/>
+</engineerTo>
+<sourcePk>EA71EA44-167B-E1D0-0745-6D663ABF946A</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>F35FDCAD-DC8D-B132-0631-5066879806D5</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>1390098E-46F3-9DFB-8091-06F88821F0FF</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

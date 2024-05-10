@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F46E048E-EDBE-8FF3-5A61-14AD026BDA25" containerWithKeyObject="0484A0B1-F810-A37B-7B9B-2EA00CD8AA0A" localFKIndex="4755E532-C5C0-1FF3-E10F-90A4B2E5E926" name="T_GS2_FEEDBACKS_T_GS2_CONDUTORES_FK">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-05-09 19:54:08 UTC</createdTime>
+<generatorID>CA771B23-2070-392E-E767-A65F315482CA</generatorID>
+<ownerDesignName>Modelo lógico</ownerDesignName>
+<referredTableLongName>T_GS2_CONDUTORES</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>E809F11A-F326-8EF3-C3A9-45DB70D23092</referredTableID>
+<keyObject>9B3B45AF-FAF5-E08F-4502-DD1D54F4DC3E</keyObject>
+<referredKeyID>9B3B45AF-FAF5-E08F-4502-DD1D54F4DC3E</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CPF_Condutor</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

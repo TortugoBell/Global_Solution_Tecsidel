@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E97A70C2-A887-1985-37A7-FCB6577B4FF6" containerWithKeyObject="51A089F2-90A5-D378-09E8-68CF2A7878FE" localFKIndex="7433EFC0-4BCB-8E05-5178-0EA19F314876" name="T_GS2_LOGS_CAMERAS_T_GS2_CAMERAS_FK">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-05-09 19:54:08 UTC</createdTime>
+<generatorID>F00FCAFE-4994-170D-FFEB-ADF3F93FC1F2</generatorID>
+<ownerDesignName>Modelo lógico</ownerDesignName>
+<referredTableLongName>T_GS2_CAMERAS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>2455A0BB-67EC-346F-73A3-BD097B9EEE91</referredTableID>
+<keyObject>CA13ACFB-B4DD-4181-9A3F-2469BC752D1E</keyObject>
+<referredKeyID>CA13ACFB-B4DD-4181-9A3F-2469BC752D1E</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Id_Camera,T_GS2_PORTICOS_Id_Portico,T_GS2_PORTICOS_Un_Portico</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

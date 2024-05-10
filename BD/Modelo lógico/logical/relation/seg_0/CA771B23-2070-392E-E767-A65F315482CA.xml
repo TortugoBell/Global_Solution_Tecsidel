@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Feedback cliente" directorySegmentName="seg_0" id="CA771B23-2070-392E-E767-A65F315482CA">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-05-07 11:53:33 UTC</createdTime>
+<ownerDesignName>Modelo lógico</ownerDesignName>
+<engineerTo>
+<item key="77CD7FD9-178A-5462-D903-4F72A821DE98" value="true"/>
+</engineerTo>
+<sourcePk>EA71EA44-167B-E1D0-0745-6D663ABF946A</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>F35FDCAD-DC8D-B132-0631-5066879806D5</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>17DAC685-6DCD-3F05-C247-67CEF4DE1A1F</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

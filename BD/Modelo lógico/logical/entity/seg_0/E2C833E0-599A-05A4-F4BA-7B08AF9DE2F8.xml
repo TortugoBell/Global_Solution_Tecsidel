@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E2C833E0-599A-05A4-F4BA-7B08AF9DE2F8" name="T_GS2_VEICULOS">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-05-06 20:55:24 UTC</createdTime>
+<ownerDesignName>Modelo lógico</ownerDesignName>
+<engineerTo>
+<item key="77CD7FD9-178A-5462-D903-4F72A821DE98" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>Veiculo</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Placa" id="F7D33B84-DB24-34C7-50F3-52BDBE69988A">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-05-06 20:55:56 UTC</createdTime>
+<ownerDesignName>Modelo lógico</ownerDesignName>
+<engineerTo>
+<item key="77CD7FD9-178A-5462-D903-4F72A821DE98" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Modelo_Veiculo" id="BB65DE79-BC33-84E0-835F-7E2E6F924CF2">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-05-07 11:56:33 UTC</createdTime>
+<ownerDesignName>Modelo lógico</ownerDesignName>
+<engineerTo>
+<item key="77CD7FD9-178A-5462-D903-4F72A821DE98" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Ano_Veiculo" id="B35D5620-9FBB-8D1F-D79D-09387640BCFD">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-05-07 11:57:11 UTC</createdTime>
+<ownerDesignName>Modelo lógico</ownerDesignName>
+<engineerTo>
+<item key="77CD7FD9-178A-5462-D903-4F72A821DE98" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Cor_Veiculo" id="21F28A8E-299B-C612-79E8-1BDB980DCC9E">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-05-07 11:58:14 UTC</createdTime>
+<ownerDesignName>Modelo lógico</ownerDesignName>
+<engineerTo>
+<item key="77CD7FD9-178A-5462-D903-4F72A821DE98" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Chassi_veiculo" id="F9F67B17-160E-5C2B-97D9-0BA83AEBA64D">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-05-07 11:59:29 UTC</createdTime>
+<ownerDesignName>Modelo lógico</ownerDesignName>
+<engineerTo>
+<item key="77CD7FD9-178A-5462-D903-4F72A821DE98" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>17</dataTypeSize>
+<ownDataTypeParameters>17,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1F48F20E-6166-28E6-A2CB-BDD07F27701C" name="T_GS2_VEICULO PK">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-05-06 20:56:23 UTC</createdTime>
+<ownerDesignName>Modelo lógico</ownerDesignName>
+<engineerTo>
+<item key="77CD7FD9-178A-5462-D903-4F72A821DE98" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F7D33B84-DB24-34C7-50F3-52BDBE69988A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

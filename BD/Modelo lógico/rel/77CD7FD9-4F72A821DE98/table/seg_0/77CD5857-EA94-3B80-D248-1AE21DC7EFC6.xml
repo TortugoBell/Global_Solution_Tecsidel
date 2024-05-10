@@ -1,0 +1,121 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="77CD5857-EA94-3B80-D248-1AE21DC7EFC6" name="T_GS2_HISTORICO">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-05-09 19:54:08 UTC</createdTime>
+<generatorID>6A0529C5-9506-DC9E-6C4A-1424FE426D76</generatorID>
+<ownerDesignName>Modelo lógico</ownerDesignName>
+<abbreviation>Historico</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="T_GS2_CONDUTORES_CPF_Condutor" id="6A500604-D551-9F0B-C705-C3EF098F8132">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-05-09 19:54:08 UTC</createdTime>
+<generatorID>AE79F593-8B8F-A070-810E-93FC8CB60249</generatorID>
+<ownerDesignName>Modelo lógico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0730BA6D-8A2B-2CF1-6C96-0B27F822CA6D" referredColumn="9F58CB8E-A495-384E-B154-661BF8DA37C0"/>
+</associations>
+</Column>
+<Column name="T_GS2_PORTICOS_Id_Portico" id="9676ED98-C1E8-79D0-88E9-D184FAA713FF">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-05-09 19:54:08 UTC</createdTime>
+<generatorID>936CA778-0E61-B5F8-1311-445036012026</generatorID>
+<ownerDesignName>Modelo lógico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E20AF772-89E0-288D-9C05-CEC3492A2A70" referredColumn="F0067A4F-7E61-E1AF-E9C2-AFD23C98E0E2"/>
+</associations>
+</Column>
+<Column name="T_GS2_PORTICOS_Un_Portico" id="1BF4541E-07E8-35C9-3E3E-A23607DCC9FB">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-05-09 19:54:08 UTC</createdTime>
+<generatorID>E1C3C588-F1AA-A317-392D-BD3CC6CF798D</generatorID>
+<ownerDesignName>Modelo lógico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E20AF772-89E0-288D-9C05-CEC3492A2A70" referredColumn="54CE63A8-AE34-981F-CF60-89457FC291AF"/>
+</associations>
+</Column>
+<Column name="ID_Historico" id="119D1F73-5D9C-303B-3FF7-687D55A32497">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-05-09 19:54:08 UTC</createdTime>
+<generatorID>5384ACEB-8277-F6F3-0D8D-DE2867BF5532</generatorID>
+<ownerDesignName>Modelo lógico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Dt_Historico" id="6F70578B-EC14-5101-F531-BC77F3234261">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-05-09 19:54:08 UTC</createdTime>
+<generatorID>AF1480B5-E419-A57F-08F3-B9D7D576544D</generatorID>
+<ownerDesignName>Modelo lógico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>91229484-D19C-D458-8647-333C7FFE7B60</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="ECCEB41A-7E03-17A5-EE30-8EAA21428608" name="T_GS2_HISTORICO_PK">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-05-09 19:54:08 UTC</createdTime>
+<generatorID>F58FE029-DFE3-5B15-5E04-E41F3B00279E</generatorID>
+<ownerDesignName>Modelo lógico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="119D1F73-5D9C-303B-3FF7-687D55A32497"/>
+<colUsage columnID="6A500604-D551-9F0B-C705-C3EF098F8132"/>
+<colUsage columnID="9676ED98-C1E8-79D0-88E9-D184FAA713FF"/>
+<colUsage columnID="1BF4541E-07E8-35C9-3E3E-A23607DCC9FB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BB3701F1-AF91-A958-7ECA-D9FDEB2371CC" name="T_GS2_HISTORICO_T_GS2_CONDUTORES_FK">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-05-09 19:54:08 UTC</createdTime>
+<generatorID>D742E109-4DBC-F007-89EB-1C67E79B4C72</generatorID>
+<ownerDesignName>Modelo lógico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6A500604-D551-9F0B-C705-C3EF098F8132"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C3C7C0D1-2F6D-E54C-83A1-A0270F674F2F" name="T_GS2_HISTORICO_T_GS2_PORTICOS_FK">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-05-09 19:54:08 UTC</createdTime>
+<generatorID>0AD6A72C-9134-6C19-7D9E-E34BC84AF263</generatorID>
+<ownerDesignName>Modelo lógico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9676ED98-C1E8-79D0-88E9-D184FAA713FF"/>
+<colUsage columnID="1BF4541E-07E8-35C9-3E3E-A23607DCC9FB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

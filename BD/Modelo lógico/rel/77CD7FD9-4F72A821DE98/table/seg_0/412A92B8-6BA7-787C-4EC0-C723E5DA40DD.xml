@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="412A92B8-6BA7-787C-4EC0-C723E5DA40DD" name="T_GS2_FORMAS_DE_PAGAMENTO">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-05-09 19:54:08 UTC</createdTime>
+<generatorID>2791FC10-A674-C1DC-8E82-F9E82D6104E8</generatorID>
+<ownerDesignName>Modelo lógico</ownerDesignName>
+<abbreviation>Formas de Pagamento</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="T_GS2_CONDUTORES_CPF_Condutor" id="3FAA5CF3-B51B-FD2C-EA5A-CA6F367FF48E">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-05-09 19:54:08 UTC</createdTime>
+<generatorID>029C6B66-2F07-3DFF-6536-9893DDBB1565</generatorID>
+<ownerDesignName>Modelo lógico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1BEEB3A3-B466-65D3-7E9C-55D6033DA5C8" referredColumn="9F58CB8E-A495-384E-B154-661BF8DA37C0"/>
+</associations>
+</Column>
+<Column name="Id_forma_pgto" id="016C20F7-D376-76E6-1592-70F32916A6A0">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-05-09 19:54:08 UTC</createdTime>
+<generatorID>DA099D2A-BC54-5EC1-8D93-A34510AD1F3C</generatorID>
+<ownerDesignName>Modelo lógico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Forma_Pgto_1" id="818492E7-8D88-8FE6-82EE-FF28C5336FC7">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-05-09 19:54:08 UTC</createdTime>
+<generatorID>1DF9B293-A2C8-2E44-2672-5A778C42AAD3</generatorID>
+<ownerDesignName>Modelo lógico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Forma_Pgto_2" id="10C8B6A0-F651-B6FB-EDD8-5E5914AB29C3">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-05-09 19:54:08 UTC</createdTime>
+<generatorID>1DC423A0-2B95-B363-FDDE-18029E3AB1FE</generatorID>
+<ownerDesignName>Modelo lógico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Forma_Pgto_3" id="B29FF5CE-8DDD-2297-9728-E0EF6220375F">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-05-09 19:54:08 UTC</createdTime>
+<generatorID>4DC0F9E1-9F6A-F7E1-6D50-BE21FF89E4AF</generatorID>
+<ownerDesignName>Modelo lógico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C673A10B-4DC2-046A-80CF-E1144086B6EF" name="T_GS2_FORMAS_DE_PAGAMENTO_PK">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-05-09 19:54:08 UTC</createdTime>
+<generatorID>5049EE51-ED89-861D-19EE-1C5B1F03F102</generatorID>
+<ownerDesignName>Modelo lógico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="016C20F7-D376-76E6-1592-70F32916A6A0"/>
+<colUsage columnID="3FAA5CF3-B51B-FD2C-EA5A-CA6F367FF48E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D5A01136-70C1-5893-54B2-FF54E6CD8CDF" name="T_GS2_FORMAS_DE_PAGAMENTO_T_GS2_CONDUTORES_FK">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-05-09 19:54:08 UTC</createdTime>
+<generatorID>81D0B064-2EEC-B948-0B72-DF60A04CD2D0</generatorID>
+<ownerDesignName>Modelo lógico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3FAA5CF3-B51B-FD2C-EA5A-CA6F367FF48E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

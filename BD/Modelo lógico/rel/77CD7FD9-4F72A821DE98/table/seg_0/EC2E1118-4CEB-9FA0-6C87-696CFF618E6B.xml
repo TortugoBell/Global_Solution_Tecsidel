@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EC2E1118-4CEB-9FA0-6C87-696CFF618E6B" name="T_GS2_USUARIO">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-05-09 19:54:08 UTC</createdTime>
+<generatorID>682830C8-3C99-FD21-FB88-1E7AB90E0182</generatorID>
+<ownerDesignName>Modelo lógico</ownerDesignName>
+<abbreviation>USURIO</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id_Usuario" id="4B84E05C-2B93-03AD-494D-6F408AC11C2D">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-05-09 19:54:08 UTC</createdTime>
+<generatorID>9F1E38EC-05A0-E2DC-D806-B5E96CD71AA2</generatorID>
+<ownerDesignName>Modelo lógico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Reg_Usuario" id="93482ADA-1663-030C-F920-20F7DEC8CFAA">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-05-09 19:54:08 UTC</createdTime>
+<generatorID>C7B11E60-5C2C-2443-0C5D-3669C2876A66</generatorID>
+<ownerDesignName>Modelo lógico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tp_Usuario" id="DA58CC27-B260-AACF-6A36-2CD388C2BFB3">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-05-09 19:54:08 UTC</createdTime>
+<generatorID>026C32C5-170E-AB3D-CD0E-565C614F4C3E</generatorID>
+<ownerDesignName>Modelo lógico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nm_usuario" id="82D07ECF-4555-AAEB-9532-6E61B63D1856">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-05-09 19:54:08 UTC</createdTime>
+<generatorID>2EBA1535-720D-3F50-0A6A-A6416B32995A</generatorID>
+<ownerDesignName>Modelo lógico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Snh_Usuario" id="AA469812-EB35-9A3A-82FA-0C763F8E032F">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-05-09 19:54:08 UTC</createdTime>
+<generatorID>94FF53EA-1068-CC72-716E-3C508A44ACE3</generatorID>
+<ownerDesignName>Modelo lógico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="86F84069-256D-5B76-B713-04423526FF3A" name="T_GS2_USUARIO_PK">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-05-09 19:54:08 UTC</createdTime>
+<generatorID>13E3B1A4-B1FB-FA2B-71B4-95049ECC6E1F</generatorID>
+<ownerDesignName>Modelo lógico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4B84E05C-2B93-03AD-494D-6F408AC11C2D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

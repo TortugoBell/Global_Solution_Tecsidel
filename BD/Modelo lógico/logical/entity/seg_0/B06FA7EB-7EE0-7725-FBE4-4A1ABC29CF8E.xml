@@ -1,0 +1,132 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B06FA7EB-7EE0-7725-FBE4-4A1ABC29CF8E" name="T_GS2_PAGAMENTOS">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-05-07 20:48:20 UTC</createdTime>
+<ownerDesignName>Modelo lógico</ownerDesignName>
+<engineerTo>
+<item key="77CD7FD9-178A-5462-D903-4F72A821DE98" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>Pagamentos</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="CPF_Condutor" id="30C7D8B3-C8D2-0158-2D63-768B5FDD0957">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-05-07 20:51:49 UTC</createdTime>
+<generatorID>E9479AB9-297B-6BC0-5B6A-952B1B7415F1</generatorID>
+<ownerDesignName>Modelo lógico</ownerDesignName>
+<engineerTo>
+<item key="77CD7FD9-178A-5462-D903-4F72A821DE98" value="true"/>
+</engineerTo>
+<referedAttribute>AE79F593-8B8F-A070-810E-93FC8CB60249</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id_Portico" id="2DF124FF-B91B-400A-47FC-BB3246DD1A5B">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-05-09 18:59:32 UTC</createdTime>
+<generatorID>E9479AB9-297B-6BC0-5B6A-952B1B7415F1</generatorID>
+<ownerDesignName>Modelo lógico</ownerDesignName>
+<engineerTo>
+<item key="77CD7FD9-178A-5462-D903-4F72A821DE98" value="true"/>
+</engineerTo>
+<referedAttribute>936CA778-0E61-B5F8-1311-445036012026</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Un_Portico" id="16C1B544-A318-A1BB-B995-16017F4BB69F">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-05-09 18:59:32 UTC</createdTime>
+<generatorID>E9479AB9-297B-6BC0-5B6A-952B1B7415F1</generatorID>
+<ownerDesignName>Modelo lógico</ownerDesignName>
+<engineerTo>
+<item key="77CD7FD9-178A-5462-D903-4F72A821DE98" value="true"/>
+</engineerTo>
+<referedAttribute>E1C3C588-F1AA-A317-392D-BD3CC6CF798D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_Historico" id="58F803C7-6296-CD66-0DA6-B6D35C824E1D">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-05-07 20:51:49 UTC</createdTime>
+<generatorID>E9479AB9-297B-6BC0-5B6A-952B1B7415F1</generatorID>
+<ownerDesignName>Modelo lógico</ownerDesignName>
+<engineerTo>
+<item key="77CD7FD9-178A-5462-D903-4F72A821DE98" value="true"/>
+</engineerTo>
+<referedAttribute>5384ACEB-8277-F6F3-0D8D-DE2867BF5532</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id_Pgto" id="5108B00B-0426-33C2-6776-21EE00DC968F">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-05-07 20:49:33 UTC</createdTime>
+<ownerDesignName>Modelo lógico</ownerDesignName>
+<engineerTo>
+<item key="77CD7FD9-178A-5462-D903-4F72A821DE98" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Forma_Pgto" id="05CE5888-209A-E569-5281-712953005A81">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-05-07 20:50:21 UTC</createdTime>
+<ownerDesignName>Modelo lógico</ownerDesignName>
+<engineerTo>
+<item key="77CD7FD9-178A-5462-D903-4F72A821DE98" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Sts_Pgto" id="9F49B7F4-7772-8613-4419-0007DA511E97">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-05-07 20:50:55 UTC</createdTime>
+<ownerDesignName>Modelo lógico</ownerDesignName>
+<engineerTo>
+<item key="77CD7FD9-178A-5462-D903-4F72A821DE98" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="BC8362CC-CE7A-AF10-6A8E-2C3973A4E131" name="T_GS2_PAGAMENTOS PK">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-05-07 20:50:18 UTC</createdTime>
+<ownerDesignName>Modelo lógico</ownerDesignName>
+<engineerTo>
+<item key="77CD7FD9-178A-5462-D903-4F72A821DE98" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5108B00B-0426-33C2-6776-21EE00DC968F</attributeRef>
+<attributeRef>30C7D8B3-C8D2-0158-2D63-768B5FDD0957</attributeRef>
+<attributeRef>58F803C7-6296-CD66-0DA6-B6D35C824E1D</attributeRef>
+<attributeRef>2DF124FF-B91B-400A-47FC-BB3246DD1A5B</attributeRef>
+<attributeRef>16C1B544-A318-A1BB-B995-16017F4BB69F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

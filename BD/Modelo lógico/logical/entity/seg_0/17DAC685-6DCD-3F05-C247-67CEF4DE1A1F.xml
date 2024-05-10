@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="17DAC685-6DCD-3F05-C247-67CEF4DE1A1F" name="T_GS2_FEEDBACKS">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-05-07 11:50:48 UTC</createdTime>
+<ownerDesignName>Modelo lógico</ownerDesignName>
+<engineerTo>
+<item key="77CD7FD9-178A-5462-D903-4F72A821DE98" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>Feedback</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="CPF_Condutor" id="BAE71C50-AE89-FE27-C2DC-0CC2730AE590">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-05-07 11:53:33 UTC</createdTime>
+<generatorID>CA771B23-2070-392E-E767-A65F315482CA</generatorID>
+<ownerDesignName>Modelo lógico</ownerDesignName>
+<engineerTo>
+<item key="77CD7FD9-178A-5462-D903-4F72A821DE98" value="true"/>
+</engineerTo>
+<referedAttribute>8E610D94-C003-B343-3224-7B951FB3666C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id_Feedback" id="ECE5DFE9-EE05-3361-0F1B-0C27E4CC1070">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-05-07 11:51:12 UTC</createdTime>
+<ownerDesignName>Modelo lógico</ownerDesignName>
+<engineerTo>
+<item key="77CD7FD9-178A-5462-D903-4F72A821DE98" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nt_feedback" id="C1B94202-B62F-3D23-D903-C3306E059761">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-05-07 11:51:40 UTC</createdTime>
+<ownerDesignName>Modelo lógico</ownerDesignName>
+<engineerTo>
+<item key="77CD7FD9-178A-5462-D903-4F72A821DE98" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Cm_Feedback" id="24E96006-20AA-D3F1-9C5A-3B2E2AE32174">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-05-07 11:52:13 UTC</createdTime>
+<ownerDesignName>Modelo lógico</ownerDesignName>
+<engineerTo>
+<item key="77CD7FD9-178A-5462-D903-4F72A821DE98" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C7CA3F35-9A74-31CD-5708-7652FFA47064" name="T_GS2_FEEDBACK PK">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-05-07 11:51:38 UTC</createdTime>
+<ownerDesignName>Modelo lógico</ownerDesignName>
+<engineerTo>
+<item key="77CD7FD9-178A-5462-D903-4F72A821DE98" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>ECE5DFE9-EE05-3361-0F1B-0C27E4CC1070</attributeRef>
+<attributeRef>BAE71C50-AE89-FE27-C2DC-0CC2730AE590</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

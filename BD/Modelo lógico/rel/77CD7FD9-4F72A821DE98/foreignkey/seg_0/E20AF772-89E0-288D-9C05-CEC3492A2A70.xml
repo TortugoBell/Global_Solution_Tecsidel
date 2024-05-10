@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E20AF772-89E0-288D-9C05-CEC3492A2A70" containerWithKeyObject="77CD5857-EA94-3B80-D248-1AE21DC7EFC6" localFKIndex="C3C7C0D1-2F6D-E54C-83A1-A0270F674F2F" name="T_GS2_HISTORICO_T_GS2_PORTICOS_FK">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-05-09 19:54:08 UTC</createdTime>
+<generatorID>0AD6A72C-9134-6C19-7D9E-E34BC84AF263</generatorID>
+<ownerDesignName>Modelo lógico</ownerDesignName>
+<referredTableLongName>T_GS2_PORTICOS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>78023ED4-FBFE-C884-08F1-9C259623E388</referredTableID>
+<keyObject>4A9B2406-A212-4030-045B-1ED46BF0AE57</keyObject>
+<referredKeyID>4A9B2406-A212-4030-045B-1ED46BF0AE57</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Id_Portico,Un_Portico</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

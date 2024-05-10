@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Modelo lógico" id="1EDBC35C-294D-C926-8184-BF91F45344C5" version="3.5">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-05-06 20:44:47 UTC</createdTime>
+<ownerDesignName>Modelo lógico</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>1EDBC35C-294D-C926-8184-BF91F45344C5</designId>
+</OSDM_Design>

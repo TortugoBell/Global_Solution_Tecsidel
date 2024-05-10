@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2789D6DB-F8F9-24A8-C9E3-10A5CB301AA8" name="T_GS2_CONTATOS">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-05-09 19:54:08 UTC</createdTime>
+<generatorID>1390098E-46F3-9DFB-8091-06F88821F0FF</generatorID>
+<ownerDesignName>Modelo lógico</ownerDesignName>
+<abbreviation>Contato</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="T_GS2_CONDUTORES_CPF_Condutor" id="7D5A5A9A-3941-DC82-7CE8-8E1DD45F2B2C">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-05-09 19:54:08 UTC</createdTime>
+<generatorID>1D76D118-FB68-BFF5-A480-B29C8DEFAEA6</generatorID>
+<ownerDesignName>Modelo lógico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F27C1391-E537-894B-EC16-11ACC7DF82C5" referredColumn="9F58CB8E-A495-384E-B154-661BF8DA37C0"/>
+</associations>
+</Column>
+<Column name="Id_Contato" id="6ED0AED2-F901-3240-D942-7864A6263B09">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-05-09 19:54:08 UTC</createdTime>
+<generatorID>A310F522-6975-B7C8-FDF1-5D79F855980B</generatorID>
+<ownerDesignName>Modelo lógico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tp_Contato" id="053DF585-01E1-6A71-42B5-8AFD99111534">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-05-09 19:54:08 UTC</createdTime>
+<generatorID>B46DF85D-8E52-3974-EA51-0A4B6EE9F4DC</generatorID>
+<ownerDesignName>Modelo lógico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32</dataTypeSize>
+<ownDataTypeParameters>32,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Pref_Contato" id="A4698D5A-11DA-39AF-CA60-875C19CC38AF">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-05-09 19:54:08 UTC</createdTime>
+<generatorID>517DF4E0-53F4-7DC3-97D2-A6816A759321</generatorID>
+<ownerDesignName>Modelo lógico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A701FCFF-0D0D-A300-4C1A-FEE1A3386906" name="T_GS2_CONTATOS_PK">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-05-09 19:54:08 UTC</createdTime>
+<generatorID>113EB596-FC1F-753E-59CF-F45F593D441C</generatorID>
+<ownerDesignName>Modelo lógico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6ED0AED2-F901-3240-D942-7864A6263B09"/>
+<colUsage columnID="7D5A5A9A-3941-DC82-7CE8-8E1DD45F2B2C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="47D692F2-A998-6215-8649-4A5097713238" name="T_GS2_CONTATOS_T_GS2_CONDUTORES_FK">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-05-09 19:54:08 UTC</createdTime>
+<generatorID>06BC8C7B-2694-B073-C3A1-CDC6F38491AC</generatorID>
+<ownerDesignName>Modelo lógico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7D5A5A9A-3941-DC82-7CE8-8E1DD45F2B2C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

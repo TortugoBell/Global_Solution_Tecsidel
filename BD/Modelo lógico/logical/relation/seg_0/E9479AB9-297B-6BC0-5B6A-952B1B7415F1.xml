@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Historico de pagamentos" directorySegmentName="seg_0" id="E9479AB9-297B-6BC0-5B6A-952B1B7415F1">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-05-07 20:51:49 UTC</createdTime>
+<ownerDesignName>Modelo lógico</ownerDesignName>
+<engineerTo>
+<item key="77CD7FD9-178A-5462-D903-4F72A821DE98" value="true"/>
+</engineerTo>
+<sourcePk>F58FE029-DFE3-5B15-5E04-E41F3B00279E</sourcePk>
+<identifying>true</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>6A0529C5-9506-DC9E-6C4A-1424FE426D76</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>B06FA7EB-7EE0-7725-FBE4-4A1ABC29CF8E</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

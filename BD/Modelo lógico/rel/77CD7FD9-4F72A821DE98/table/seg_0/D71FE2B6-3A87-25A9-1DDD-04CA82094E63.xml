@@ -1,0 +1,141 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D71FE2B6-3A87-25A9-1DDD-04CA82094E63" name="T_GS2_PAGAMENTOS">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-05-09 19:54:08 UTC</createdTime>
+<generatorID>B06FA7EB-7EE0-7725-FBE4-4A1ABC29CF8E</generatorID>
+<ownerDesignName>Modelo lógico</ownerDesignName>
+<abbreviation>Pagamentos</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="T_GS2_HISTORICO_CPF_Condutor" id="65A60F28-FF4B-BFA0-4A93-6ABD7A6DD52B">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-05-09 19:54:08 UTC</createdTime>
+<generatorID>30C7D8B3-C8D2-0158-2D63-768B5FDD0957</generatorID>
+<ownerDesignName>Modelo lógico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2181D6B0-AE97-DC56-A2B6-C8099B198B57" referredColumn="6A500604-D551-9F0B-C705-C3EF098F8132"/>
+</associations>
+</Column>
+<Column name="T_GS2_HISTORICO_Id_Portico" id="01FDA316-9260-A1BC-7389-63CB6182C5BA">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-05-09 19:54:08 UTC</createdTime>
+<generatorID>2DF124FF-B91B-400A-47FC-BB3246DD1A5B</generatorID>
+<ownerDesignName>Modelo lógico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2181D6B0-AE97-DC56-A2B6-C8099B198B57" referredColumn="9676ED98-C1E8-79D0-88E9-D184FAA713FF"/>
+</associations>
+</Column>
+<Column name="T_GS2_HISTORICO_Un_Portico" id="92EAD828-F46D-5E9F-297C-CD96CA082855">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-05-09 19:54:08 UTC</createdTime>
+<generatorID>16C1B544-A318-A1BB-B995-16017F4BB69F</generatorID>
+<ownerDesignName>Modelo lógico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2181D6B0-AE97-DC56-A2B6-C8099B198B57" referredColumn="1BF4541E-07E8-35C9-3E3E-A23607DCC9FB"/>
+</associations>
+</Column>
+<Column name="T_GS2_HISTORICO_ID_Historico" id="D07CF60A-7EB5-8B93-C127-769338B60FA4">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-05-09 19:54:08 UTC</createdTime>
+<generatorID>58F803C7-6296-CD66-0DA6-B6D35C824E1D</generatorID>
+<ownerDesignName>Modelo lógico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2181D6B0-AE97-DC56-A2B6-C8099B198B57" referredColumn="119D1F73-5D9C-303B-3FF7-687D55A32497"/>
+</associations>
+</Column>
+<Column name="Id_Pgto" id="EC5647C1-B913-A92A-3D42-466D8554FA1A">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-05-09 19:54:08 UTC</createdTime>
+<generatorID>5108B00B-0426-33C2-6776-21EE00DC968F</generatorID>
+<ownerDesignName>Modelo lógico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Forma_Pgto" id="7441D717-A50E-BF6D-C53C-F6CF4C3A8B5F">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-05-09 19:54:08 UTC</createdTime>
+<generatorID>05CE5888-209A-E569-5281-712953005A81</generatorID>
+<ownerDesignName>Modelo lógico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Sts_Pgto" id="E63860B0-F62E-CABF-2790-F76098CFB885">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-05-09 19:54:08 UTC</createdTime>
+<generatorID>9F49B7F4-7772-8613-4419-0007DA511E97</generatorID>
+<ownerDesignName>Modelo lógico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F6920E80-5CB6-743C-12F6-03DED4506ADE" name="T_GS2_PAGAMENTOS_PK">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-05-09 19:54:08 UTC</createdTime>
+<generatorID>BC8362CC-CE7A-AF10-6A8E-2C3973A4E131</generatorID>
+<ownerDesignName>Modelo lógico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EC5647C1-B913-A92A-3D42-466D8554FA1A"/>
+<colUsage columnID="65A60F28-FF4B-BFA0-4A93-6ABD7A6DD52B"/>
+<colUsage columnID="D07CF60A-7EB5-8B93-C127-769338B60FA4"/>
+<colUsage columnID="01FDA316-9260-A1BC-7389-63CB6182C5BA"/>
+<colUsage columnID="92EAD828-F46D-5E9F-297C-CD96CA082855"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="904F51F7-BB3C-43F8-FADA-B077B00DD8E4" name="T_GS2_PAGAMENTOS_T_GS2_HISTORICO_FK">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-05-09 19:54:08 UTC</createdTime>
+<generatorID>E9479AB9-297B-6BC0-5B6A-952B1B7415F1</generatorID>
+<ownerDesignName>Modelo lógico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D07CF60A-7EB5-8B93-C127-769338B60FA4"/>
+<colUsage columnID="65A60F28-FF4B-BFA0-4A93-6ABD7A6DD52B"/>
+<colUsage columnID="01FDA316-9260-A1BC-7389-63CB6182C5BA"/>
+<colUsage columnID="92EAD828-F46D-5E9F-297C-CD96CA082855"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

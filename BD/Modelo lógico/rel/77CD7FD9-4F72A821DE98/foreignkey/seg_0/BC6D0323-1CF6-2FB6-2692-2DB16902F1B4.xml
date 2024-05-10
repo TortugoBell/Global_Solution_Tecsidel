@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="BC6D0323-1CF6-2FB6-2692-2DB16902F1B4" containerWithKeyObject="E809F11A-F326-8EF3-C3A9-45DB70D23092" localFKIndex="C31E50C8-747D-811D-8A46-C2A146F4B227" name="T_GS2_CONDUTORES_T_GS2_VEICULOS_FK">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-05-09 19:54:08 UTC</createdTime>
+<generatorID>71AC030C-760D-46F6-D311-C27F3319FDBA</generatorID>
+<ownerDesignName>Modelo lógico</ownerDesignName>
+<referredTableLongName>T_GS2_VEICULOS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>7708B1F4-2E3F-2B69-47F2-41AB80CC0246</referredTableID>
+<keyObject>6A1CE388-D2E6-349F-7462-F196A1EB390A</keyObject>
+<referredKeyID>6A1CE388-D2E6-349F-7462-F196A1EB390A</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Placa</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

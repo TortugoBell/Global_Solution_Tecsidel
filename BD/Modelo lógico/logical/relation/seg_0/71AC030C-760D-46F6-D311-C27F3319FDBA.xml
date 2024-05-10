@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Condutor do veiculo" directorySegmentName="seg_0" id="71AC030C-760D-46F6-D311-C27F3319FDBA">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-05-09 19:39:22 UTC</createdTime>
+<ownerDesignName>Modelo lógico</ownerDesignName>
+<engineerTo>
+<item key="77CD7FD9-178A-5462-D903-4F72A821DE98" value="true"/>
+</engineerTo>
+<sourcePk>1F48F20E-6166-28E6-A2CB-BDD07F27701C</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>E2C833E0-599A-05A4-F4BA-7B08AF9DE2F8</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>F35FDCAD-DC8D-B132-0631-5066879806D5</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

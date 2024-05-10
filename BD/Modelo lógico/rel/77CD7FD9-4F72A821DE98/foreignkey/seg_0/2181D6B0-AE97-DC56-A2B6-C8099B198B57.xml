@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="2181D6B0-AE97-DC56-A2B6-C8099B198B57" containerWithKeyObject="D71FE2B6-3A87-25A9-1DDD-04CA82094E63" localFKIndex="904F51F7-BB3C-43F8-FADA-B077B00DD8E4" name="T_GS2_PAGAMENTOS_T_GS2_HISTORICO_FK">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-05-09 19:54:08 UTC</createdTime>
+<generatorID>E9479AB9-297B-6BC0-5B6A-952B1B7415F1</generatorID>
+<ownerDesignName>Modelo lógico</ownerDesignName>
+<referredTableLongName>T_GS2_HISTORICO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>77CD5857-EA94-3B80-D248-1AE21DC7EFC6</referredTableID>
+<keyObject>ECCEB41A-7E03-17A5-EE30-8EAA21428608</keyObject>
+<referredKeyID>ECCEB41A-7E03-17A5-EE30-8EAA21428608</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_Historico,T_GS2_CONDUTORES_CPF_Condutor,T_GS2_PORTICOS_Id_Portico,T_GS2_PORTICOS_Un_Portico</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

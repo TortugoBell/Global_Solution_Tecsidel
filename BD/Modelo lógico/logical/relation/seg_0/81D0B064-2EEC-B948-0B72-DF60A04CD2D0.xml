@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Formas de pagamento" directorySegmentName="seg_0" id="81D0B064-2EEC-B948-0B72-DF60A04CD2D0">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-05-07 12:10:33 UTC</createdTime>
+<ownerDesignName>Modelo lógico</ownerDesignName>
+<engineerTo>
+<item key="77CD7FD9-178A-5462-D903-4F72A821DE98" value="true"/>
+</engineerTo>
+<sourcePk>EA71EA44-167B-E1D0-0745-6D663ABF946A</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>F35FDCAD-DC8D-B132-0631-5066879806D5</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>2791FC10-A674-C1DC-8E82-F9E82D6104E8</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

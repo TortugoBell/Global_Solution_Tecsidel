@@ -1,0 +1,143 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="106ADCE7-8383-82DA-493D-BC7E862BD731" name="T_GS2_LOGS_CAMERAS">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-05-09 19:30:43 UTC</createdTime>
+<ownerDesignName>Modelo lógico</ownerDesignName>
+<engineerTo>
+<item key="77CD7FD9-178A-5462-D903-4F72A821DE98" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>Logs Cameras</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Id_Portico" id="EC252515-0E7D-B9ED-CDC7-A1D16E1964C4">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-05-09 19:37:27 UTC</createdTime>
+<generatorID>F00FCAFE-4994-170D-FFEB-ADF3F93FC1F2</generatorID>
+<ownerDesignName>Modelo lógico</ownerDesignName>
+<engineerTo>
+<item key="77CD7FD9-178A-5462-D903-4F72A821DE98" value="true"/>
+</engineerTo>
+<referedAttribute>4114D288-212E-8C14-3C3F-D69AE38E7CDA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Un_Portico" id="05D56947-5210-8A33-244A-90CC71A6424A">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-05-09 19:37:27 UTC</createdTime>
+<generatorID>F00FCAFE-4994-170D-FFEB-ADF3F93FC1F2</generatorID>
+<ownerDesignName>Modelo lógico</ownerDesignName>
+<engineerTo>
+<item key="77CD7FD9-178A-5462-D903-4F72A821DE98" value="true"/>
+</engineerTo>
+<referedAttribute>E33761C3-9AF8-4F63-9617-3D70C1CA8204</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id_Camera" id="23F1C704-0F72-2C40-AA6D-3A20FB2FC66B">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-05-09 19:37:27 UTC</createdTime>
+<generatorID>F00FCAFE-4994-170D-FFEB-ADF3F93FC1F2</generatorID>
+<ownerDesignName>Modelo lógico</ownerDesignName>
+<engineerTo>
+<item key="77CD7FD9-178A-5462-D903-4F72A821DE98" value="true"/>
+</engineerTo>
+<referedAttribute>4D2A808E-6499-EDCA-5B38-D8F97BE28722</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id_Log" id="BE8B0104-B856-B97A-BF91-130FF299E562">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-05-09 19:31:38 UTC</createdTime>
+<ownerDesignName>Modelo lógico</ownerDesignName>
+<engineerTo>
+<item key="77CD7FD9-178A-5462-D903-4F72A821DE98" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Tp_Log" id="413E696C-9396-0D26-9663-A42AEEF7DFB2">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-05-09 19:31:57 UTC</createdTime>
+<ownerDesignName>Modelo lógico</ownerDesignName>
+<engineerTo>
+<item key="77CD7FD9-178A-5462-D903-4F72A821DE98" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Dt_Log" id="EC0FF252-F372-179C-9E42-86F7D62B9176">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-05-09 19:32:29 UTC</createdTime>
+<ownerDesignName>Modelo lógico</ownerDesignName>
+<engineerTo>
+<item key="77CD7FD9-178A-5462-D903-4F72A821DE98" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>91229484-D19C-D458-8647-333C7FFE7B60</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Msg_Log" id="489B8996-A4BE-F535-7D5F-C77517D4B446">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-05-09 19:33:32 UTC</createdTime>
+<ownerDesignName>Modelo lógico</ownerDesignName>
+<engineerTo>
+<item key="77CD7FD9-178A-5462-D903-4F72A821DE98" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Sts_Log" id="C264962C-F11C-07CC-5BFB-C6B88EAFDF6B">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-05-09 19:34:38 UTC</createdTime>
+<ownerDesignName>Modelo lógico</ownerDesignName>
+<engineerTo>
+<item key="77CD7FD9-178A-5462-D903-4F72A821DE98" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="DE714B20-B542-3C06-E086-016D5F2E715B" name="T_GS2_LOGS_CAMERAS PK">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-05-09 19:31:59 UTC</createdTime>
+<ownerDesignName>Modelo lógico</ownerDesignName>
+<engineerTo>
+<item key="77CD7FD9-178A-5462-D903-4F72A821DE98" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>BE8B0104-B856-B97A-BF91-130FF299E562</attributeRef>
+<attributeRef>23F1C704-0F72-2C40-AA6D-3A20FB2FC66B</attributeRef>
+<attributeRef>EC252515-0E7D-B9ED-CDC7-A1D16E1964C4</attributeRef>
+<attributeRef>05D56947-5210-8A33-244A-90CC71A6424A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

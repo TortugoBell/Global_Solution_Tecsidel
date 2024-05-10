@@ -1,0 +1,147 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="51A089F2-90A5-D378-09E8-68CF2A7878FE" name="T_GS2_LOGS_CAMERAS">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-05-09 19:54:08 UTC</createdTime>
+<generatorID>106ADCE7-8383-82DA-493D-BC7E862BD731</generatorID>
+<ownerDesignName>Modelo lógico</ownerDesignName>
+<abbreviation>Logs Cameras</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="T_GS2_CAMERAS_T_GS2_PORTICOS_Id_Portico" id="E979B58B-4BAA-E8DB-B17F-E6E4379E47FB">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-05-09 19:54:08 UTC</createdTime>
+<generatorID>EC252515-0E7D-B9ED-CDC7-A1D16E1964C4</generatorID>
+<ownerDesignName>Modelo lógico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E97A70C2-A887-1985-37A7-FCB6577B4FF6" referredColumn="E49AB431-0395-4D41-49ED-074CFA5D261C"/>
+</associations>
+</Column>
+<Column name="T_GS2_CAMERAS_T_GS2_PORTICOS_Un_Portico" id="D39CAF7D-7D29-35A8-6F20-ACB7A14FBC4D">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-05-09 19:54:08 UTC</createdTime>
+<generatorID>05D56947-5210-8A33-244A-90CC71A6424A</generatorID>
+<ownerDesignName>Modelo lógico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E97A70C2-A887-1985-37A7-FCB6577B4FF6" referredColumn="DCE98A56-86FD-541B-6CFD-6B8BD5AADF4A"/>
+</associations>
+</Column>
+<Column name="T_GS2_CAMERAS_Id_Camera" id="D546265E-24AE-1E26-9050-8DE82B29EC40">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-05-09 19:54:08 UTC</createdTime>
+<generatorID>23F1C704-0F72-2C40-AA6D-3A20FB2FC66B</generatorID>
+<ownerDesignName>Modelo lógico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E97A70C2-A887-1985-37A7-FCB6577B4FF6" referredColumn="0ED7463A-186F-387E-663E-2C520765ACFA"/>
+</associations>
+</Column>
+<Column name="Id_Log" id="E98467C1-357A-F33A-958D-DA55A2152889">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-05-09 19:54:08 UTC</createdTime>
+<generatorID>BE8B0104-B856-B97A-BF91-130FF299E562</generatorID>
+<ownerDesignName>Modelo lógico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tp_Log" id="022B9C8F-F3C0-DEBF-83D5-2A7D487AA014">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-05-09 19:54:08 UTC</createdTime>
+<generatorID>413E696C-9396-0D26-9663-A42AEEF7DFB2</generatorID>
+<ownerDesignName>Modelo lógico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Dt_Log" id="32113369-F356-4D74-E820-5CD2681DBB46">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-05-09 19:54:08 UTC</createdTime>
+<generatorID>EC0FF252-F372-179C-9E42-86F7D62B9176</generatorID>
+<ownerDesignName>Modelo lógico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>91229484-D19C-D458-8647-333C7FFE7B60</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Msg_Log" id="5F9DDCD0-88E3-8357-9461-E8FDB86BB0AE">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-05-09 19:54:08 UTC</createdTime>
+<generatorID>489B8996-A4BE-F535-7D5F-C77517D4B446</generatorID>
+<ownerDesignName>Modelo lógico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Sts_Log" id="C09B30C0-45A6-28DC-C6D9-2F09606194F6">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-05-09 19:54:08 UTC</createdTime>
+<generatorID>C264962C-F11C-07CC-5BFB-C6B88EAFDF6B</generatorID>
+<ownerDesignName>Modelo lógico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="94F66001-5687-687B-B0C6-3A7BA8984E67" name="T_GS2_LOGS_CAMERAS_PK">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-05-09 19:54:08 UTC</createdTime>
+<generatorID>DE714B20-B542-3C06-E086-016D5F2E715B</generatorID>
+<ownerDesignName>Modelo lógico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E98467C1-357A-F33A-958D-DA55A2152889"/>
+<colUsage columnID="D546265E-24AE-1E26-9050-8DE82B29EC40"/>
+<colUsage columnID="E979B58B-4BAA-E8DB-B17F-E6E4379E47FB"/>
+<colUsage columnID="D39CAF7D-7D29-35A8-6F20-ACB7A14FBC4D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7433EFC0-4BCB-8E05-5178-0EA19F314876" name="T_GS2_LOGS_CAMERAS_T_GS2_CAMERAS_FK">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-05-09 19:54:08 UTC</createdTime>
+<generatorID>F00FCAFE-4994-170D-FFEB-ADF3F93FC1F2</generatorID>
+<ownerDesignName>Modelo lógico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D546265E-24AE-1E26-9050-8DE82B29EC40"/>
+<colUsage columnID="E979B58B-4BAA-E8DB-B17F-E6E4379E47FB"/>
+<colUsage columnID="D39CAF7D-7D29-35A8-6F20-ACB7A14FBC4D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

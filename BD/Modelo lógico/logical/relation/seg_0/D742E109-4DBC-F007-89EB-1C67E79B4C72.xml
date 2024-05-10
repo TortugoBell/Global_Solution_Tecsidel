@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Histórico de pedágios" directorySegmentName="seg_0" id="D742E109-4DBC-F007-89EB-1C67E79B4C72">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-05-07 11:49:15 UTC</createdTime>
+<ownerDesignName>Modelo lógico</ownerDesignName>
+<engineerTo>
+<item key="77CD7FD9-178A-5462-D903-4F72A821DE98" value="true"/>
+</engineerTo>
+<sourcePk>EA71EA44-167B-E1D0-0745-6D663ABF946A</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>F35FDCAD-DC8D-B132-0631-5066879806D5</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>6A0529C5-9506-DC9E-6C4A-1424FE426D76</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

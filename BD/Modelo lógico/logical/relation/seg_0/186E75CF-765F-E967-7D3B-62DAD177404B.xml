@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Cameras do portico" directorySegmentName="seg_0" id="186E75CF-765F-E967-7D3B-62DAD177404B">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-05-09 19:23:39 UTC</createdTime>
+<ownerDesignName>Modelo lógico</ownerDesignName>
+<engineerTo>
+<item key="77CD7FD9-178A-5462-D903-4F72A821DE98" value="true"/>
+</engineerTo>
+<sourcePk>5A69BDCB-95F5-B8A2-5E62-885DC741D81C</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>AB2C4113-823D-C1E3-7D37-ED6E6A4D9FCE</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>EAB61083-6F84-A29C-DB7E-FA3636C2B96E</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

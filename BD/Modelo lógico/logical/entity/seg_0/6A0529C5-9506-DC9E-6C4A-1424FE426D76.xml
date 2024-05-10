@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6A0529C5-9506-DC9E-6C4A-1424FE426D76" name="T_GS2_HISTORICO">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-05-06 21:20:09 UTC</createdTime>
+<ownerDesignName>Modelo lógico</ownerDesignName>
+<engineerTo>
+<item key="77CD7FD9-178A-5462-D903-4F72A821DE98" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>Historico</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="CPF_Condutor" id="AE79F593-8B8F-A070-810E-93FC8CB60249">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-05-07 11:53:20 UTC</createdTime>
+<generatorID>D742E109-4DBC-F007-89EB-1C67E79B4C72</generatorID>
+<ownerDesignName>Modelo lógico</ownerDesignName>
+<engineerTo>
+<item key="77CD7FD9-178A-5462-D903-4F72A821DE98" value="true"/>
+</engineerTo>
+<referedAttribute>8E610D94-C003-B343-3224-7B951FB3666C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id_Portico" id="936CA778-0E61-B5F8-1311-445036012026">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-05-09 18:59:32 UTC</createdTime>
+<generatorID>0AD6A72C-9134-6C19-7D9E-E34BC84AF263</generatorID>
+<ownerDesignName>Modelo lógico</ownerDesignName>
+<engineerTo>
+<item key="77CD7FD9-178A-5462-D903-4F72A821DE98" value="true"/>
+</engineerTo>
+<referedAttribute>EA97F21C-F740-1567-6A75-A2B12558C36A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Un_Portico" id="E1C3C588-F1AA-A317-392D-BD3CC6CF798D">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-05-09 18:59:32 UTC</createdTime>
+<generatorID>0AD6A72C-9134-6C19-7D9E-E34BC84AF263</generatorID>
+<ownerDesignName>Modelo lógico</ownerDesignName>
+<engineerTo>
+<item key="77CD7FD9-178A-5462-D903-4F72A821DE98" value="true"/>
+</engineerTo>
+<referedAttribute>D8B85630-F1A5-C573-6263-09F199FA2A09</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_Historico" id="5384ACEB-8277-F6F3-0D8D-DE2867BF5532">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-05-06 21:26:06 UTC</createdTime>
+<ownerDesignName>Modelo lógico</ownerDesignName>
+<engineerTo>
+<item key="77CD7FD9-178A-5462-D903-4F72A821DE98" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Dt_Historico" id="AF1480B5-E419-A57F-08F3-B9D7D576544D">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-05-07 11:46:52 UTC</createdTime>
+<ownerDesignName>Modelo lógico</ownerDesignName>
+<engineerTo>
+<item key="77CD7FD9-178A-5462-D903-4F72A821DE98" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>91229484-D19C-D458-8647-333C7FFE7B60</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F58FE029-DFE3-5B15-5E04-E41F3B00279E" name="T_GS2_HISTORICO PK">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-05-06 21:26:36 UTC</createdTime>
+<ownerDesignName>Modelo lógico</ownerDesignName>
+<engineerTo>
+<item key="77CD7FD9-178A-5462-D903-4F72A821DE98" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5384ACEB-8277-F6F3-0D8D-DE2867BF5532</attributeRef>
+<attributeRef>AE79F593-8B8F-A070-810E-93FC8CB60249</attributeRef>
+<attributeRef>936CA778-0E61-B5F8-1311-445036012026</attributeRef>
+<attributeRef>E1C3C588-F1AA-A317-392D-BD3CC6CF798D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

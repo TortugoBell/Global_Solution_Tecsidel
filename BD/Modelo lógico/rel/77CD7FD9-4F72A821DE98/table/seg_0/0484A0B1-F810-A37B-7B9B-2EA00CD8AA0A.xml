@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0484A0B1-F810-A37B-7B9B-2EA00CD8AA0A" name="T_GS2_FEEDBACKS">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-05-09 19:54:08 UTC</createdTime>
+<generatorID>17DAC685-6DCD-3F05-C247-67CEF4DE1A1F</generatorID>
+<ownerDesignName>Modelo lógico</ownerDesignName>
+<abbreviation>Feedback</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="T_GS2_CONDUTORES_CPF_Condutor" id="D9CD74E2-4784-AAC3-72F3-834FD4D4E378">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-05-09 19:54:08 UTC</createdTime>
+<generatorID>BAE71C50-AE89-FE27-C2DC-0CC2730AE590</generatorID>
+<ownerDesignName>Modelo lógico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F46E048E-EDBE-8FF3-5A61-14AD026BDA25" referredColumn="9F58CB8E-A495-384E-B154-661BF8DA37C0"/>
+</associations>
+</Column>
+<Column name="Id_Feedback" id="ADBE8164-BB5D-27BF-E6AD-DD0CE1868427">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-05-09 19:54:08 UTC</createdTime>
+<generatorID>ECE5DFE9-EE05-3361-0F1B-0C27E4CC1070</generatorID>
+<ownerDesignName>Modelo lógico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nt_feedback" id="42D3FE45-EB6D-F171-EF2B-A500AFABE91E">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-05-09 19:54:08 UTC</createdTime>
+<generatorID>C1B94202-B62F-3D23-D903-C3306E059761</generatorID>
+<ownerDesignName>Modelo lógico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Cm_Feedback" id="BC364A72-7D34-56E9-3D15-2E4B241C2EE6">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-05-09 19:54:08 UTC</createdTime>
+<generatorID>24E96006-20AA-D3F1-9C5A-3B2E2AE32174</generatorID>
+<ownerDesignName>Modelo lógico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AA9AF3A6-575A-AEFE-FE85-A6506B2F8F47" name="T_GS2_FEEDBACKS_PK">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-05-09 19:54:08 UTC</createdTime>
+<generatorID>C7CA3F35-9A74-31CD-5708-7652FFA47064</generatorID>
+<ownerDesignName>Modelo lógico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ADBE8164-BB5D-27BF-E6AD-DD0CE1868427"/>
+<colUsage columnID="D9CD74E2-4784-AAC3-72F3-834FD4D4E378"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4755E532-C5C0-1FF3-E10F-90A4B2E5E926" name="T_GS2_FEEDBACKS_T_GS2_CONDUTORES_FK">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-05-09 19:54:08 UTC</createdTime>
+<generatorID>CA771B23-2070-392E-E767-A65F315482CA</generatorID>
+<ownerDesignName>Modelo lógico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D9CD74E2-4784-AAC3-72F3-834FD4D4E378"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

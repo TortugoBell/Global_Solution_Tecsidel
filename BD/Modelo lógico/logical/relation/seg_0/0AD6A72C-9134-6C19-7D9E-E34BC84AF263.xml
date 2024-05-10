@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Unidade do Historico" directorySegmentName="seg_0" id="0AD6A72C-9134-6C19-7D9E-E34BC84AF263">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-05-09 18:59:32 UTC</createdTime>
+<ownerDesignName>Modelo lógico</ownerDesignName>
+<engineerTo>
+<item key="77CD7FD9-178A-5462-D903-4F72A821DE98" value="true"/>
+</engineerTo>
+<sourcePk>5A69BDCB-95F5-B8A2-5E62-885DC741D81C</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>AB2C4113-823D-C1E3-7D37-ED6E6A4D9FCE</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>6A0529C5-9506-DC9E-6C4A-1424FE426D76</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

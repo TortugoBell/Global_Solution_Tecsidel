@@ -16,8 +16,7 @@
 <ownerDesignName>Modelo lógico</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>15</dataTypeSize>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
@@ -36,38 +35,23 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Forma_Pgto_1" id="818492E7-8D88-8FE6-82EE-FF28C5336FC7">
+<Column name="Tp_pagamento" id="22B803D0-28A1-3562-C41C-A872249C95CD">
 <createdBy>Pichau</createdBy>
-<createdTime>2024-05-09 19:54:08 UTC</createdTime>
-<generatorID>1DF9B293-A2C8-2E44-2672-5A778C42AAD3</generatorID>
+<createdTime>2024-05-12 22:53:57 UTC</createdTime>
+<generatorID>83FE1C82-325E-D6CD-CBDA-D6B7CF96CF52</generatorID>
 <ownerDesignName>Modelo lógico</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT006</logicalDatatype>
-<dataTypeSize>1</dataTypeSize>
-<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Forma_Pgto_2" id="10C8B6A0-F651-B6FB-EDD8-5E5914AB29C3">
+<Column name="Preferencia_pagamento" id="6EBDAFD7-39F3-A71F-FBBA-E68ECBBF0E5F">
 <createdBy>Pichau</createdBy>
-<createdTime>2024-05-09 19:54:08 UTC</createdTime>
-<generatorID>1DC423A0-2B95-B363-FDDE-18029E3AB1FE</generatorID>
+<createdTime>2024-05-12 22:53:57 UTC</createdTime>
+<generatorID>E8C49A36-B1D7-8C10-B62E-47543D5C6F2C</generatorID>
 <ownerDesignName>Modelo lógico</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT006</logicalDatatype>
-<dataTypeSize>1</dataTypeSize>
-<ownDataTypeParameters>1,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="Forma_Pgto_3" id="B29FF5CE-8DDD-2297-9728-E0EF6220375F">
-<createdBy>Pichau</createdBy>
-<createdTime>2024-05-09 19:54:08 UTC</createdTime>
-<generatorID>4DC0F9E1-9F6A-F7E1-6D50-BE21FF89E4AF</generatorID>
-<ownerDesignName>Modelo lógico</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT006</logicalDatatype>

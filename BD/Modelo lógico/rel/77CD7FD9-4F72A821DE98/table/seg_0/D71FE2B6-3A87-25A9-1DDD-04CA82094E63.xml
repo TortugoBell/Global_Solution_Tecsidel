@@ -9,14 +9,14 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="T_GS2_HISTORICO_CPF_Condutor" id="65A60F28-FF4B-BFA0-4A93-6ABD7A6DD52B">
+<Column name="T_GS2_HISTORICO_T_GS2_CONDUTORES_CPF_Condutor" id="65A60F28-FF4B-BFA0-4A93-6ABD7A6DD52B">
 <createdBy>Pichau</createdBy>
 <createdTime>2024-05-09 19:54:08 UTC</createdTime>
 <generatorID>30C7D8B3-C8D2-0158-2D63-768B5FDD0957</generatorID>
 <ownerDesignName>Modelo lógico</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <dataTypeSize>15</dataTypeSize>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
@@ -25,7 +25,7 @@
 <colAssociation fkAssociation="2181D6B0-AE97-DC56-A2B6-C8099B198B57" referredColumn="6A500604-D551-9F0B-C705-C3EF098F8132"/>
 </associations>
 </Column>
-<Column name="T_GS2_HISTORICO_Id_Portico" id="01FDA316-9260-A1BC-7389-63CB6182C5BA">
+<Column name="T_GS2_HISTORICO_T_GS2_PORTICOS_Id_Portico" id="01FDA316-9260-A1BC-7389-63CB6182C5BA">
 <createdBy>Pichau</createdBy>
 <createdTime>2024-05-09 19:54:08 UTC</createdTime>
 <generatorID>2DF124FF-B91B-400A-47FC-BB3246DD1A5B</generatorID>
@@ -40,7 +40,7 @@
 <colAssociation fkAssociation="2181D6B0-AE97-DC56-A2B6-C8099B198B57" referredColumn="9676ED98-C1E8-79D0-88E9-D184FAA713FF"/>
 </associations>
 </Column>
-<Column name="T_GS2_HISTORICO_Un_Portico" id="92EAD828-F46D-5E9F-297C-CD96CA082855">
+<Column name="T_GS2_HISTORICO_T_GS2_PORTICOS_Un_Portico" id="92EAD828-F46D-5E9F-297C-CD96CA082855">
 <createdBy>Pichau</createdBy>
 <createdTime>2024-05-09 19:54:08 UTC</createdTime>
 <generatorID>16C1B544-A318-A1BB-B995-16017F4BB69F</generatorID>

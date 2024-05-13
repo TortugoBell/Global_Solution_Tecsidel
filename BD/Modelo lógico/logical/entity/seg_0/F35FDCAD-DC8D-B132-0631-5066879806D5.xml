@@ -40,9 +40,8 @@
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>15</dataTypeSize>
-<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Nm_Condutor" id="F958C86E-EBBB-66A3-2ABA-967990963A9C">
 <createdBy>Pichau</createdBy>
@@ -66,9 +65,8 @@
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>15</dataTypeSize>
-<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Plan_Condutor" id="7669FEC8-6180-6AE5-869E-F121EA3F3E6B">
 <createdBy>Pichau</createdBy>
@@ -77,11 +75,12 @@
 <engineerTo>
 <item key="77CD7FD9-178A-5462-D903-4F72A821DE98" value="true"/>
 </engineerTo>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT006</logicalDatatype>
-<dataTypeSize>1</dataTypeSize>
-<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
@@ -89,8 +88,9 @@
 <createdBy>Pichau</createdBy>
 <createdTime>2024-05-06 21:03:02 UTC</createdTime>
 <ownerDesignName>Modelo lógico</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="77CD7FD9-178A-5462-D903-4F72A821DE98" value="true"/>
+<item key="77CD7FD9-178A-5462-D903-4F72A821DE98" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

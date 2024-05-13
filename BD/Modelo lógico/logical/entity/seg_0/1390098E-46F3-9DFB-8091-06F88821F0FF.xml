@@ -27,9 +27,8 @@
 <referedAttribute>8E610D94-C003-B343-3224-7B951FB3666C</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>15</dataTypeSize>
-<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Id_Contato" id="A310F522-6975-B7C8-FDF1-5D79F855980B">
 <createdBy>Pichau</createdBy>
@@ -53,8 +52,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>32</dataTypeSize>
-<ownDataTypeParameters>32,,</ownDataTypeParameters>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Pref_Contato" id="517DF4E0-53F4-7DC3-97D2-A6816A759321">
 <createdBy>Pichau</createdBy>
@@ -76,8 +75,9 @@
 <createdBy>Pichau</createdBy>
 <createdTime>2024-05-06 21:17:17 UTC</createdTime>
 <ownerDesignName>Modelo lógico</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="77CD7FD9-178A-5462-D903-4F72A821DE98" value="true"/>
+<item key="77CD7FD9-178A-5462-D903-4F72A821DE98" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

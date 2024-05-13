@@ -27,7 +27,7 @@
 <referedAttribute>8E610D94-C003-B343-3224-7B951FB3666C</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <dataTypeSize>15</dataTypeSize>
 <ownDataTypeParameters>15,,</ownDataTypeParameters>
 </Attribute>
@@ -75,8 +75,9 @@
 <createdBy>Pichau</createdBy>
 <createdTime>2024-05-07 11:51:38 UTC</createdTime>
 <ownerDesignName>Modelo lógico</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="77CD7FD9-178A-5462-D903-4F72A821DE98" value="true"/>
+<item key="77CD7FD9-178A-5462-D903-4F72A821DE98" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

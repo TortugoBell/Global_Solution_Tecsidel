@@ -9,6 +9,17 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CPF_Condutor" id="9F58CB8E-A495-384E-B154-661BF8DA37C0">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-05-09 19:54:08 UTC</createdTime>
+<generatorID>8E610D94-C003-B343-3224-7B951FB3666C</generatorID>
+<ownerDesignName>Modelo lógico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 <Column name="T_GS2_VEICULOS_Placa" id="002B2903-9815-51E9-EEFB-BCEB827D11B7">
 <createdBy>Pichau</createdBy>
 <createdTime>2024-05-09 19:54:08 UTC</createdTime>
@@ -24,18 +35,6 @@
 <associations>
 <colAssociation fkAssociation="BC6D0323-1CF6-2FB6-2692-2DB16902F1B4" referredColumn="A2A8AF04-2DF8-D23E-46E2-5FD730CF3056"/>
 </associations>
-</Column>
-<Column name="CPF_Condutor" id="9F58CB8E-A495-384E-B154-661BF8DA37C0">
-<createdBy>Pichau</createdBy>
-<createdTime>2024-05-09 19:54:08 UTC</createdTime>
-<generatorID>8E610D94-C003-B343-3224-7B951FB3666C</generatorID>
-<ownerDesignName>Modelo lógico</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>15</dataTypeSize>
-<ownDataTypeParameters>15,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="Nm_Condutor" id="455BA276-3989-F3D5-F60D-B1F5CD1AEBC2">
 <createdBy>Pichau</createdBy>
@@ -56,9 +55,8 @@
 <ownerDesignName>Modelo lógico</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>15</dataTypeSize>
-<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="Plan_Condutor" id="9C674004-DC26-3934-F3E4-734AD18D08DD">
@@ -66,11 +64,12 @@
 <createdTime>2024-05-09 19:54:08 UTC</createdTime>
 <generatorID>7669FEC8-6180-6AE5-869E-F121EA3F3E6B</generatorID>
 <ownerDesignName>Modelo lógico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT006</logicalDatatype>
-<dataTypeSize>1</dataTypeSize>
-<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>

@@ -27,9 +27,8 @@
 <referedAttribute>8E610D94-C003-B343-3224-7B951FB3666C</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>15</dataTypeSize>
-<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Id_forma_pgto" id="DA099D2A-BC54-5EC1-8D93-A34510AD1F3C">
 <createdBy>Pichau</createdBy>
@@ -43,42 +42,26 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Forma_Pgto_1" id="1DF9B293-A2C8-2E44-2672-5A778C42AAD3">
+<Attribute name="Tp_pagamento" id="83FE1C82-325E-D6CD-CBDA-D6B7CF96CF52">
 <createdBy>Pichau</createdBy>
-<createdTime>2024-05-07 12:05:15 UTC</createdTime>
+<createdTime>2024-05-12 22:52:10 UTC</createdTime>
 <ownerDesignName>Modelo lógico</ownerDesignName>
 <engineerTo>
 <item key="77CD7FD9-178A-5462-D903-4F72A821DE98" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT006</logicalDatatype>
-<dataTypeSize>1</dataTypeSize>
-<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Forma_Pgto_2" id="1DC423A0-2B95-B363-FDDE-18029E3AB1FE">
+<Attribute name="Preferencia_pagamento" id="E8C49A36-B1D7-8C10-B62E-47543D5C6F2C">
 <createdBy>Pichau</createdBy>
-<createdTime>2024-05-07 12:06:06 UTC</createdTime>
+<createdTime>2024-05-12 22:53:00 UTC</createdTime>
 <ownerDesignName>Modelo lógico</ownerDesignName>
 <engineerTo>
 <item key="77CD7FD9-178A-5462-D903-4F72A821DE98" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT006</logicalDatatype>
-<dataTypeSize>1</dataTypeSize>
-<ownDataTypeParameters>1,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="Forma_Pgto_3" id="4DC0F9E1-9F6A-F7E1-6D50-BE21FF89E4AF">
-<createdBy>Pichau</createdBy>
-<createdTime>2024-05-07 12:06:26 UTC</createdTime>
-<ownerDesignName>Modelo lógico</ownerDesignName>
-<engineerTo>
-<item key="77CD7FD9-178A-5462-D903-4F72A821DE98" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT006</logicalDatatype>
@@ -91,8 +74,9 @@
 <createdBy>Pichau</createdBy>
 <createdTime>2024-05-07 12:07:44 UTC</createdTime>
 <ownerDesignName>Modelo lógico</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="77CD7FD9-178A-5462-D903-4F72A821DE98" value="true"/>
+<item key="77CD7FD9-178A-5462-D903-4F72A821DE98" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

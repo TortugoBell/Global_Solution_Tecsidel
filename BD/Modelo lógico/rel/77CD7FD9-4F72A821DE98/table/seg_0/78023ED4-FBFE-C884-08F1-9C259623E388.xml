@@ -43,6 +43,22 @@
 <ownDataTypeParameters>100,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="T_GS2_USUARIO_Id_Usuario" id="B2243EB0-E1D7-9B87-9615-6D638748573E">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-05-20 07:45:24 UTC</createdTime>
+<generatorID>68E26211-A357-5643-D23F-8F1835AF1A6A</generatorID>
+<ownerDesignName>Modelo lógico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="25EE8F26-6BD5-A26C-E596-734D84E64BD9" referredColumn="4B84E05C-2B93-03AD-494D-6F408AC11C2D"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="4A9B2406-A212-4030-045B-1ED46BF0AE57" name="T_GS2_PORTICOS_PK">
@@ -56,6 +72,17 @@
 <indexColumnUsage>
 <colUsage columnID="F0067A4F-7E61-E1AF-E9C2-AFD23C98E0E2"/>
 <colUsage columnID="54CE63A8-AE34-981F-CF60-89457FC291AF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6EC4E3FD-CF98-7F58-B065-989747F56002" name="T_GS2_PORTICOS_T_GS2_USUARIO_FK">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-05-20 07:45:24 UTC</createdTime>
+<generatorID>916F52A6-9A07-A71F-D388-BA1F32D52B68</generatorID>
+<ownerDesignName>Modelo lógico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B2243EB0-E1D7-9B87-9615-6D638748573E"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

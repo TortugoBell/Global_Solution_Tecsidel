@@ -53,14 +53,30 @@
 <dataTypeSize>100</dataTypeSize>
 <ownDataTypeParameters>100,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="Id_Usuario" id="68E26211-A357-5643-D23F-8F1835AF1A6A">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-05-20 07:41:21 UTC</createdTime>
+<generatorID>916F52A6-9A07-A71F-D388-BA1F32D52B68</generatorID>
+<ownerDesignName>Modelo lógico</ownerDesignName>
+<engineerTo>
+<item key="77CD7FD9-178A-5462-D903-4F72A821DE98" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>9F1E38EC-05A0-E2DC-D806-B5E96CD71AA2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="5A69BDCB-95F5-B8A2-5E62-885DC741D81C" name="T_SG2_PORTICO PK">
 <createdBy>Pichau</createdBy>
 <createdTime>2024-05-09 18:23:45 UTC</createdTime>
 <ownerDesignName>Modelo lógico</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="77CD7FD9-178A-5462-D903-4F72A821DE98" value="true"/>
+<item key="77CD7FD9-178A-5462-D903-4F72A821DE98" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
